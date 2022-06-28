@@ -6,6 +6,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 
 function App() {
 	const [isAuth,setIsAuth] = useState(false)
+	
   return (
 	<BrowserRouter>
 	<CssBaseline>
