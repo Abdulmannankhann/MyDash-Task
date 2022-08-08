@@ -3,6 +3,7 @@ import Chart from './components/Chart'
 import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CssBaseline from "@mui/material/CssBaseline";
+
 function App() {
 	const [isAuth,setIsAuth] = useState(false)
 	
